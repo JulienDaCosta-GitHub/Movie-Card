@@ -13,7 +13,7 @@ function GetPopularMovies() {
 
         ListMovies.forEach(movie => {
             ShowAllData +=
-                "<div id=" + movie.id + ">" +
+                "<div class='col-sm-2' id=" + movie.id + ">" +
                 "<img src='https://image.tmdb.org/t/p/w185" + movie.poster_path + "'>" +
                 "<br>" +
                 movie.original_title +
