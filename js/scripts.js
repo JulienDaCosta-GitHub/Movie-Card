@@ -38,7 +38,7 @@ GetPopularMovies();
 
 
 function GetRatingMovie() {
-    var url2 = "http://www.omdbapi.com/?t=";
+    var url2 = "https://www.omdbapi.com/?t=";
     var apikeyurl2 = "&apikey=da468cb7";
     var inputtitle = document.getElementById('this-movie').value;
     console.log(url2 + inputtitle + apikeyurl2);
