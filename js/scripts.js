@@ -53,15 +53,19 @@ function GetRatingMovie() {
 
 
         $('#Your-Movie').html(
-            "<div class='ResultMovie'>" + "<h2>" + SelectRatingData.Title + "</h2><br>" +
+            "<div class='ResultMovie'>" +
+            "<div class='EachColumn ColumnLeft'>" +
+            "<h2>" + SelectRatingData.Title + "</h2><br>" +
             "<img src='" + SelectRatingData.Poster + "'>" +
-            "<br><br>" +
+            "</div><br><br>" +
+            "<div class='EachColumn ColumnRight'>" +
             "<h3>" + SelectRatingData.Ratings[0].Source + ": " + SelectRatingData.Ratings[0].Value +
             "</h3><br>" +
             "<h3>" + SelectRatingData.Ratings[1].Source + ": " + SelectRatingData.Ratings[1].Value +
             "</h3><br>" +
             "<h3>" + SelectRatingData.Ratings[2].Source + ": " + SelectRatingData.Ratings[2].Value +
-            "</h3></div>");
+            "</h3></div>" +
+            "</div>");
 
     })
         .fail(function () {

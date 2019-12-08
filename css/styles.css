@@ -37,8 +37,24 @@ h1 {
 }
 
 .ResultMovie {
-    text-align: center;
+    display: flex;
     margin-bottom: 40px;
+}
+
+.EachColumn {
+    text-align: center;
+}
+
+.ColumnLeft {
+    margin-right: 40px;
+}
+
+.ColumnRight {
+    margin-left: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .Recherche {
