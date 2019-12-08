@@ -1,6 +1,11 @@
+.nav-item {
+    color: aliceblue;
+}
+
 body {
     max-width: 1280px;
     margin: auto;
+    background-color: black;
 }
 
 .BodyAccueil {
@@ -17,23 +22,31 @@ h1 {
     text-align: center;
 }
 
+.Accueil {
+    color: aliceblue;
+}
+
 .Bienvenue {
     text-align: center;
     display: block;
+    color: aliceblue;
 }
 
 .Redirection {
     display: flex;
     justify-content: space-evenly;
+    color: aliceblue;
 }
 
 .TitleOtherPages {
     padding: 100px 0px 40px 0px;
+    color: aliceblue;
 }
 
 #Your-Movie {
     display: flex;
     justify-content: center;
+    color: aliceblue;
 }
 
 .ResultMovie {
@@ -59,4 +72,8 @@ h1 {
 
 .Recherche {
     text-align: center;
+    color: aliceblue;
+}
+.row {
+    color: aliceblue;
 }
