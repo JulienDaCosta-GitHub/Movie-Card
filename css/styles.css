@@ -3,11 +3,44 @@ body {
     margin: auto;
 }
 
+.BodyAccueil {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 h1 {
     text-align: center;
-    margin: 40px 0px;
 }
 
 .EachMovie {
+    text-align: center;
+}
+
+.Bienvenue {
+    text-align: center;
+    display: block;
+}
+
+.Redirection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.TitleOtherPages {
+    padding: 100px 0px 40px 0px;
+}
+
+#Your-Movie {
+    display: flex;
+    justify-content: center;
+}
+
+.ResultMovie {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Recherche {
     text-align: center;
 }

@@ -1,5 +1,3 @@
-// Test 1 fail
-
 var callBackGetSuccess = function (data) {
     console.log("Donnees api API1", data);
 }
@@ -55,16 +53,15 @@ function GetRatingMovie() {
 
 
         $('#Your-Movie').html(
-            "<div class='EachMovie col-sm-2'>" + SelectRatingData.Title +
+            "<div class='ResultMovie'>" + "<h2>" + SelectRatingData.Title + "</h2><br>" +
             "<img src='" + SelectRatingData.Poster + "'>" +
             "<br><br>" +
-            SelectRatingData.Ratings[0].Source + ": " + SelectRatingData.Ratings[0].Value +
-            "<br><br>" +
-            SelectRatingData.Ratings[1].Source + ": " + SelectRatingData.Ratings[1].Value +
-            "<br><br>" +
-            SelectRatingData.Ratings[2].Source + ": " + SelectRatingData.Ratings[2].Value +
-
-            "</div><br>");
+            "<h3>" + SelectRatingData.Ratings[0].Source + ": " + SelectRatingData.Ratings[0].Value +
+            "</h3><br>" +
+            "<h3>" + SelectRatingData.Ratings[1].Source + ": " + SelectRatingData.Ratings[1].Value +
+            "</h3><br>" +
+            "<h3>" + SelectRatingData.Ratings[2].Source + ": " + SelectRatingData.Ratings[2].Value +
+            "</h3></div>");
 
     })
         .fail(function () {

@@ -5,28 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Projet Deploiement API</title>
+    <title>Movie Card</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
         integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="BodyAccueil">
 
-    <h1>Bienvenue</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a href="index.html" class="navbar-brand">Movie Card</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="PopularMovies.html" class="nav-item nav-link">Les films populaires</a>
+                    <a href="Score.html" class="nav-item nav-link">Scores de films</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <a href="PopularMovies.html">Les films les plus populaires</p>
+    <div class="Accueil">
+
+        <h1>Qu'est ce que Movie Card ?</h1>
+
         <br>
-        <a href="Score.html">Le score de ton film</p>
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                crossorigin="anonymous"></script>
-            <script src="js/scripts.js"></script>
+        <div class="Bienvenue">
+
+            <p>Movie Card est un projet étudiant réalisé par Julien Da Costa et Eliott Demont dans le cadre d'une
+                semaine
+                dédiée
+                aux API en en Bachelor Web deuxième année à IIM. Sur ce site, vous pouvez visualiser quels sont les
+                films
+                les
+                plus populaires, mais vous pouvez aussi visualiser les notes attribuées à un film spécifique de votre
+                choix.
+            </p>
+
+            <br>
+
+            <p>Pour la réalisation de ce site, les API TMDb (films populaires) et OMDb ont (notes des films)
+                ont été utilisées</p>
+
+            <br>
+
+            <p>Bonne visite sur notre site !</p>
+
+            <br>
+
+            <div class="Redirection">
+                <a href="PopularMovies.html">Les films populaires</a>
+                <a href="Score.html">Scores de films</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
